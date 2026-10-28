@@ -1,7 +1,7 @@
 ## Description
 
 > - This is only a learning project I'm learning through [Kaggle - Introduction to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) course.
-> - Datasets used in this project are not my own, they are sourced from Kaggle and are used solely for educational/learning purposes, all credit and rights belong to the original authors and Kaggle.
+> - Datasets used in this project are not my own, they are sourced from Kaggle and are used solely for learning purposes, all credit and rights belong to the original authors and Kaggle.
 
 <br />
 <br />
@@ -27,7 +27,8 @@ make dep
 > - Run the program.
 
 ```sh
-make run
+# Check the ./dataset/* directory.
+make run dataset=redwine
 ```
 
 <br />
