@@ -1,6 +1,6 @@
 ## Description
 
-> - This is only a learning project I've learn through [Kaggle - Introduction to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) course.
+> - This is only a learning project I'm learning through [Kaggle - Introduction to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning) course.
 
 <br />
 <br />
