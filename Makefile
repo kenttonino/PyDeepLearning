@@ -4,4 +4,5 @@ dep:
 	pip install -r requirements.txt
 
 run:
+	# make run dataset=redwine
 	python3 ./src/main.py --dataset $(dataset)
