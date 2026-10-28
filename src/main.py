@@ -1,6 +1,15 @@
+import argparse
 import keras
 from keras import layers
 
+parser = argparse.ArgumentParser();
+parser.add_argument("--dataset", required=True, help="Dataset name");
+args = parser.parse_args();
+print(args.dataset)
+
 model = keras.Sequential([
-    layers.Dense(units=1, input_shape=[3])
+    keras.Input(shape=[3]),
+    layers.Dense(units=1)
 ]);
+
+print(model.summary());
