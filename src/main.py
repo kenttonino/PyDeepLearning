@@ -9,10 +9,3 @@ args = parser.parse_args();
 
 if args.dataset == "redwine":
     run_exercise_redwine();
-
-model = keras.Sequential([
-    keras.Input(shape=[3]),
-    layers.Dense(units=1)
-]);
-
-print(model.summary());
