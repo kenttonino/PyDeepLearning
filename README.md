@@ -8,6 +8,33 @@
 
 
 
+## Local Setup
+
+> - Create a virtual environment and activate it.
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+
+> - Install the dependency.
+
+```sh
+make dep
+```
+
+> - Run the program.
+
+```sh
+make run
+```
+
+<br />
+<br />
+<br />
+
+
+
 ## Learning Resources
 
 > - https://www.kaggle.com/learn/intro-to-deep-learning
