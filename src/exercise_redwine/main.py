@@ -1,5 +1,5 @@
 from pathlib import Path
-
+from utils.main import add_new_line
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -16,5 +16,13 @@ def run_exercise_redwine():
     );
 
     ROOT = Path(__file__).resolve().parent.parent.parent
-    red_wine = pd.read_csv(ROOT / "dataset" / "red-wine.csv");
-    red_wine.head();
+    redwine = pd.read_csv(ROOT / "dataset" / "redwine.csv");
+    redwine.head();
+
+    add_new_line(1);
+    print("# ------------------------- #");
+    print("# (1) Input Shape Challenge #");
+    print("# ------------------------- #")
+    input_shape = [redwine.shape[1] - 1];
+    print(input_shape);
+    add_new_line(1);

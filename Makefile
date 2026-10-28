@@ -5,4 +5,5 @@ dep:
 
 run:
 	# make run dataset=redwine
+	clear
 	python3 ./src/main.py --dataset $(dataset)
